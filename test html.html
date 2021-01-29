@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Studying </title>
+
+    <style>
+        hr {
+            border:black 2px dashed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Date 1 </h1>
+    <h3># header</h3>
+    <hr>
+
+    <h1>제목 1부터</h1>
+    <h6>제목 6까지 있음.</h6>
+    <hr>
+
+    <h3># p & pre (with br)</h3>
+    <p>
+        핑    퐁
+        팽
+            퐁
+        어떻게 나오나 테스트
+    </p>
+    <p>
+        핑    퐁 <br>
+        팽<br>
+            퐁<br>
+        어떻게 나오나 테스트
+    </p>
+    <pre>
+        핑    퐁
+        팽
+            퐁
+        어떻게 나오나 테스트
+    </pre>
+    <pre>   핑    퐁 <br>
+        팽<br>
+            퐁<br>
+        어떻게 나오나 테스트
+    </pre>
+
+    <hr>
+
+    <h3>글씨 굵게/이태릭 (with 강조)</h3>
+    <p><b> b는 단순히 굵게 </b></p>
+    <p><strong>strong은</strong> 굴게+강조(검색엔진에 더 잘걸리게 한다)까지!</p>
+    <p><i>i는 이탤릭체</i></p>
+    <p><em> em은</em> 이탤릭체+강조까지!</p>
+    <p>
+        <mark>
+            <del>
+                <ins>"이 부분"</ins>
+            </del>
+        </mark>
+        만 <mark>하이라이팅(mark)</mark>과 <del>취소선 표시(del)</del> , <ins>밑줄 (ins)</ins>하기.
+    </p>
+    <p><sup>위첨자</sup>는 supscript의 sup태그를 사용하고,</p>
+    <p><sub>아래첨자</sub>는 subscript의 sub태그를 사용한다.</p>
+    <hr>
+
+    <h3># 인용구 표시</h3>
+    <p><q>인용구</q>표시는 quostation의 q태그를 사용한다.</p>
+    <blockquote>길이가 긴 인용구</blockquote>
+    <p>의 경우에는 별도의 단락을 제공하는 blockquote를 사용한다.</p>
+    <abbr title="이렇게 title 앳븃으로 축약어의 원어를 나타낼 수 있다.">마우스를 위에 올리면</abbr>
+    <address>
+        address태그는 주소를 나타내기 위해 사용되고,<br>
+        이태릭체로 위아래 공백이 자동으로 삽입되는게 특징이다.
+    </address>
+    <hr>
+
+    <h3># 주석 표시</h3>
+    <p> >>>>   <!-- 주석 표시--> <<<< 여기 주석이 있지만 보이지 않는다.</p>
+    <!--  <!-- 주석에 주석넣기 --> 바깥 주석 --> <p>이렇게 주석의 중첩은 안됩니다.</p>
+    <hr>
+
+    <h3># 엔터티</h3>
+        <p> &엔티티이름; 또는 &#엔티티숫자;</p>
+        <p> 이것들은 다 엔터티로 만든거였음. -> &nbsp;&lt; &gt; &amp; &quot; &apos; </p>
+        <p>a에 768~771을 &#과 함께 붙이면 성조가 나와요! >> a&#768; a&#769; a&#770; a&#771;</p>
+        <p>원화나 엔화, 유로화 등도 심볼 특수 문자로 이렇게 된다. &yen;&euro; &copy; &reg; </p>
+    <hr>
+
+    <h3># 문자셋</h3>
+    <pre>
+        문자셋의 종류 : 대표적인 문자셋(character set)
+       1. ASCII : 가장 처음 만들어진 문자셋으로, 인터넷에서 사용할 수 있는 127개의 영문자와 숫자로 이뤄짐.
+       2. ANSI : 윈도우즈에서 만든 문자셋으로, 총 256개의 문자 코드를 지원합니다.
+       3. ISO-8859-1 : 256개의 문자 코드를 지원하는 HTML4의 기본 문자셋입니다.
+       4. UTF-8 : 세상에 있는 거의 모든 문자를 표현할 수 있는 유니코드 문자를 지원하는 HTML5의 기본 문자셋입니다.
+    </pre>
+    <hr>
+
+    <p> 출처 : http://tcpschool.com/html/html_basic_styles </p>
+    <p><i>이 tcp school 덕분에 열심히 공부하게 됐습니당 감사해요!! 이 자리를 빌어 감사 인사 남깁니다!</i></p>
+
+    </body>
+
+</html>
